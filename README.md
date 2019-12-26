@@ -325,7 +325,7 @@
     - [LDA和Word2Vec区别？LDA和Doc2Vec区别](自然语言处理/LDA.md#L164)
 - LSTM
 - GRU
-- Bert
+- Bert：[实现/使用的代码](https://github.com/sladesha/deep_learning/tree/master/Bert)
     - [Bert的双向体现在什么地方](自然语言处理/Bert.md#L164)
     - [Bert的是怎样预训练的](自然语言处理/Bert.md#L164)
     - [在数据中随机选择 15% 的标记，其中80%被换位\[mask\]，10%不变、10%随机替换其他单词，原因是什么](自然语言处理/Bert.md#L164)
@@ -343,8 +343,12 @@
     - [elmo、GPT、bert三者之间有什么区别](自然语言处理/Bert.md#L164)
 
 # 推荐
-- DIN
-- DeepFM
+- DIN：[实现/使用的代码](https://github.com/sladesha/deep_learning/tree/master/DeepInterestNetwork)
+    - [主要使用了什么机制](推荐/DIN.md#L164)
+    - [activation unit的作用](推荐/DIN.md#L164)
+    - [DICE怎么设计的](推荐/DIN.md#L164)
+    - [DICE使用的过程中，有什么需要注意的地方](推荐/DIN.md#L164)
+- DeepFM：[实现/使用的代码](https://github.com/sladesha/deep_learning/tree/master/DeepFM)
     - [DNN与DeepFM之间的区别](推荐/DeepFM.md#L164)
     - [Wide&Deep与DeepFM之间的区别](推荐/DeepFM.md#L164)
     - [你在使用deepFM的时候是如何处理欠拟合和过拟合问题的](推荐/DeepFM.md#L164)
@@ -353,7 +357,7 @@
     - [deepfm的embedding初始化有什么值得注意的地方吗](推荐/DeepFM.md#L164)
         - [Xavier初始化](推荐/DeepFM.md#L164)
         - [He初始化](推荐/DeepFM.md#L164)
-- YoutubeNet
+- YoutubeNet：[实现/使用的代码](https://github.com/sladesha/deep_learning/tree/master/YoutubeNetwork)
     - [变长数据如何处理的](推荐/YouTubeNet.md#L164)
     - [input是怎么构造的](推荐/YouTubeNet.md#L164)
     - [最后一次点击实际如何处理的](推荐/YouTubeNet.md#L164)
@@ -362,11 +366,16 @@
     - [item向量在softmax的时候你们怎么选择的](推荐/YouTubeNet.md#L164)
     - [Example Age的理解](推荐/YouTubeNet.md#L164)
     - [什么叫做不对称的共同浏览（asymmetric co-watch）问题](推荐/YouTubeNet.md#L164)
+    - [为什么不采取类似RNN的Sequence model](推荐/YouTubeNet.md#L164)
+    - [YouTube如何避免百万量级的softmax问题的](推荐/YouTubeNet.md#L164)
+    - [serving过程中，YouTube为什么不直接采用训练时的model进行预测，而是采用了一种最近邻搜索的方法](推荐/YouTubeNet.md#L164)
+    - [Youtube的用户对新视频有偏好，那么在模型构建的过程中如何引入这个feature](推荐/YouTubeNet.md#L164)
+    - [在处理测试集的时候，YouTube为什么不采用经典的随机留一法（random holdout），而是一定要把用户最近的一次观看行为作为测试集](推荐/YouTubeNet.md#L164)
     - [整个过程中有什么亮点？有哪些决定性的提升](推荐/YouTubeNet.md#L164)
 - Wide&Deep
 - MLR
 - Neural Network全家桶
-- XDeepFM
+- XDeepFM：[实现/使用的代码](https://github.com/sladesha/deep_learning/tree/master/XDeepFm/script)
     - [选用的原因，考虑使用的场景是什么](推荐/XDeepFM.md#L164)
     - [什么叫显示隐式？什么叫元素级/向量级？什么叫做高阶/低阶特征交互](推荐/XDeepFM.md#L164)
     - [简单介绍一下XDeepFm的思想](推荐/XDeepFM.md#L164)
